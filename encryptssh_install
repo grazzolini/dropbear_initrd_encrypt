@@ -25,11 +25,11 @@ build() {
 help() {
     cat <<HELPEOF
 This hook allows for an encrypted root device to be unlocked remotely over SSH.
-Users should specify the IP configuration using the ip= kernel parameter.
+Users should specify the IP configuration using the ip= kernel parameter, which
+is adapted from "mkinitcpio-nfs-utils". 
 
-Otherwise the options remain the same as with the basic "encrypt" hook, so look
-there fore more details.
+This hook should always be used in combination with the "dropbear" hook. Add 
+this hook after the "dropbear", though.
 HELPEOF
 }
 
-# vim: set ft=sh ts=4 sw=4 et:

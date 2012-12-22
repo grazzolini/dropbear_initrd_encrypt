@@ -1,4 +1,4 @@
-# vim: set ft=sh:
+#!/bin/bash
 
 get_fingerprint() {
   local keyfile="$1"
@@ -121,7 +121,10 @@ SCRIPTEOF
 
 help ()
 {
-cat<<HELPEOF
-  This hook allows to enter a luks password in ssh or local shell
+    cat<<HELPEOF
+This hook should always be used in combination with the "encrypthssh" hook. 
+Add this hook before the "encryptssh", though. Together they allow to enter 
+a password for a LUKS encrypted root device either via SSH or locally. 
 HELPEOF
 }
+
