@@ -1,7 +1,7 @@
 # Maintainer: Karol Babioch <karol@babioch.de>
 # Contributor: allspark
 pkgname=dropbear_initrd_encrypt
-pkgver=0.11
+pkgver=0.11.1
 pkgrel=1
 pkgdesc="Allows for an encrypted root device to be unlocked remotely over SSH"
 arch=('any')
@@ -11,7 +11,7 @@ depends=('dropbear' 'cryptsetup' 'mkinitcpio-nfs-utils' 'psmisc' 'iproute2')
 install=$pkgname.install
 source=('ChangeLog' 'dropbear_hook' 'dropbear_install' 'encryptssh_hook' 'encryptssh_install' "$pkgname.install")
 changelog='ChangeLog'
-md5sums=('2a98952e396b56f5746312970bdbc413'
+md5sums=('19d508d86f097598e88b51eee7334a73'
          '9e092625f73e1d457c383b70b6ec58c6'
          '4c847ac438e632538dfb6a8840bd06a5'
          '6bbfcbeab2f8c36f4b3aa889a102f7e5'
