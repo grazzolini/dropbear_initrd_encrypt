@@ -13,8 +13,8 @@ source=('ChangeLog' 'dropbear_hook' 'dropbear_install' 'encryptssh_hook' 'encryp
 changelog='ChangeLog'
 md5sums=('2a98952e396b56f5746312970bdbc413'
          '9e092625f73e1d457c383b70b6ec58c6'
-         'b4794a90d3fb57e4f5a4631899cd31cb'
-         '212e9cfdbd9376d671d6e4eb6d801d12'
+         '4c847ac438e632538dfb6a8840bd06a5'
+         '6bbfcbeab2f8c36f4b3aa889a102f7e5'
          '722a2bb1d2857a630173e7c00e8a518b'
          'f6bc85cc20e591b6aebf68e9b43a0c2d')
 
