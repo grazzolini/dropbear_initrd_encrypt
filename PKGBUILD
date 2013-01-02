@@ -1,4 +1,5 @@
 # Maintainer: Karol Babioch <karol@babioch.de>
+# Contributor: chadversary
 # Contributor: allspark
 pkgname=dropbear_initrd_encrypt
 pkgver=0.11.1
